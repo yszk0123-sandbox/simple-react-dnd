@@ -1,9 +1,14 @@
 import * as React from 'react';
 import { render } from 'react-dom';
-import { Example } from './Example';
+// import { Example } from './example-1/Example';
+import { Example } from './example-2/Example';
 
 function App() {
-  return <Example />;
+  return (
+    <>
+      <Example />
+    </>
+  );
 }
 
 const appElement = document.getElementById('app');

@@ -133,8 +133,11 @@ const Bar = DropTarget(DndItemType.DIRECTORY, directoryTarget, collectBar)(
   BarWithoutDnd,
 );
 
-interface ExampleProps {}
-export const Example: React.FunctionComponent<ExampleProps> = () => {
+interface SimpleExampleProps {}
+
+export const SimpleExample: React.FunctionComponent<
+  SimpleExampleProps
+> = () => {
   return (
     <React.Fragment>
       <DragDropContextProvider backend={HTML5Backend}>
