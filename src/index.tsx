@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { render } from 'react-dom';
-// import { Example } from './example-1/Example';
-import { Example } from './example-2/Example';
+import { Example } from './example-3/Example';
 
 function App() {
   return (
